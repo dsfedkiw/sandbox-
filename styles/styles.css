@@ -1,0 +1,71 @@
+.firstBox {
+    align-items: center;
+    background:darkcyan; /* Chosen background colour */
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    }
+.firstButton {
+    background-color:dimgrey;
+    display: inline;
+    flex: 100%;
+    height: 50px; /* Specified height for box */
+}
+
+
+.secondBox {
+    align-items: center;
+    background-color:darkcyan;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+.secondButton {
+    background-color:dimgrey;
+    display: inline;
+    flex: 100%;
+    height: 50px; /* Specified height for box */
+}
+
+
+.thirdBox {
+    background-color:darkcyan;
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.thirdButton1 {
+    background-color: dimgrey;
+    border: 2px solid black;
+    display: inline;
+    flex: 100%;
+    height: 50px;
+}
+.thirdButton {
+    background-color: dimgrey;
+    border: 2px solid black;
+    display: inline;
+    flex: 50%;
+    height: 50px;
+}
+
+
+.fourthBox {
+    background-color:darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px;
+}
+.fourthButton {
+    background-color: dimgrey;
+    border: 2px solid black;
+    flex: 1;
+    height: 50px;
+}
+.fourthButtonFooter {
+    background-color: dimgrey;
+    border: 2px solid black;
+    flex: 100%;
+    height: 50px;
+}
